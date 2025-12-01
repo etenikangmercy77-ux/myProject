@@ -44,8 +44,8 @@ if(isset($_POST['login'])){
                 header("Location: user_page.php"); 
             }
             exit();
-        }
-    }
+        };
+    };
 
     $_SESSION['login_error'] = 'incorrect email or password';
     $_SESSION['active_form'] = 'login';
@@ -53,7 +53,7 @@ if(isset($_POST['login'])){
     
     header("Location: index.php");
     exit();
-}
+};
 
 
 
@@ -63,15 +63,4 @@ if(isset($_POST['login'])){
 
 ?>
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        p
-    </div>
-</body>
-</html>
+

@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    background: linear-gradient(to right, #f3f4f6, #dbeafe);
     color: #333;
 }
 
@@ -53,10 +53,10 @@ input , select{
     margin-bottom: 20px;
 }
 
-button{
+button {
     width: 100%;
     padding: 12px;
-    background: #7494ec;
+    background-color: #3b82f6;
     border-radius: 6px;
     border: none;
     cursor: pointer;
@@ -64,8 +64,16 @@ button{
     color: #fff;
     font-weight: 500;
     margin-bottom: 20px;
-    transition: 0.5s;
+    
+     transition: 0.5s;
 }
+
+
+button:hover {
+    background-color: #2563eb;
+}
+
+   
 
 button:hover{
     background: #6884d3;

@@ -26,9 +26,9 @@ if(!isset($_SESSION['email'])){
 <body style="background: #fff;">
 
 <div class="box">
-        <h1>Welcome, <span><?php echo $_SESSION['fullname'] ?></span></h1>
+        <h1>Welcome, <?php echo $_SESSION['fullname']; ?> </h1>
         <p>This is an <span>user</span>page</p>
-        <button onclick="Window.location.href='logout.php'">Logout</button>
+        <button onclick="window.location.href='logout.php'">Logout</button>
 </div>
 
 
